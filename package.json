@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin-try",
+  "version": "1.0.0",
+  "description": "'the first time try to develop a simple plugin'",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx babel --plugins ./plugin.js ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ruoruochen/babel-plugin-develop-example.git"
+  },
+  "author": "RuoRuoChen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruoruochen/babel-plugin-develop-example/issues"
+  },
+  "homepage": "https://github.com/ruoruochen/babel-plugin-develop-example#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3"
+  }
+}
